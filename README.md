@@ -5,7 +5,7 @@
 ![Hardware: KiCad](https://img.shields.io/badge/Hardware-KiCad-green)
 ![Status: Alpha](https://img.shields.io/badge/Status-Alpha-orange)
 
-The **Meridian-0.5U Reference Module (RM-1)** is the standardized "blank" blade for the Meridian-4U ecosystem. It provides a structural and electrical bridge between custom hardware experiments and the **Voyager64** compute node.
+The **Meridian-0.5U Reference Module (RM-1)** is the standardized "blank" blade for the Meridian-4U ecosystem. It provides a structural and electrical bridge between custom hardware experiments and the **Voyager** compute node
 
 ---
 
