@@ -16,10 +16,20 @@
 | **C1 - C20** | **GND** | Signal Ground | Ground | Primary reference for high-speed signals. |
 | **D1** | **UART_TX** | Primary Console TX | 3.3V CMOS | Routed to Wildcard Mux. |
 | **D2** | **UART_RX** | Primary Console RX | 3.3V CMOS | Routed to Wildcard Mux. |
-| **D3** | **I2C1_SDA/SCL** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
-| **D4** | **I2C1_SDA/SCL** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
-| **D5 - D6** | **I2C1_INT/RST** | Bus Control | 3.3V CMOS | Active Low. |
-| **E1 - E4** | **SPI1_MOSI/MISO** | Data Bus | 3.3V CMOS | 50MHz Max Clock. |
+| **D3** | **I2C1_SDA** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
+| **D4** | **I2C1_SCL** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
+| **D5** | **I2C1_INT** | Bus Control | 3.3V CMOS | Active Low. |
+| **D6** | **I2C1_RST** | Bus Control | 3.3V CMOS | Active Low. |
+| **D11** | **GND** |  Signal isolation | Ground |  |
+| **D12** | **I2C1_SDA** | Management Bus | Open-Drain | Signal redundancy |
+| **D13** | **I2C1_SCL** | Management Bus | Open-Drain | Signal redundancy |
+| **D14** | **I2C1_INT** | Bus Control | 3.3V CMOS | Signal redundancy |
+| **D15** | **I2C1_RST** | Bus Control | 3.3V CMOS | Signal redundancy |
+| **D16** | **GND** | Signal isolation | Ground |  |
+| **E1** | **SPI1_MOSI** | Data Bus | 3.3V CMOS | 50MHz Max Clock. |
+| **E2** | **GND** | Signal isolation | Ground |  |
+| **E3** | **SPI1_MISO** | Data Bus | 3.3V CMOS | 50MHz Max Clock. |
+| **E4** | **GND** | Signal isolation | Ground | 5 |
 | **E5 - E8** | **SPI1_SCK/CS** | Bus Control | 3.3V CMOS | Dedicated CS per slot. |
 | **F1 - F4** | **CAN_H/L** | Control Bus | Differential | 120Ω termination required on end-nodes. |
 | **G1 - G4** | **PCIE0_TX+/TX-** | PCIe Lane 0 Out | Diff Pair | 85Ω Diff. AC Coupling caps on Source. |
@@ -35,8 +45,6 @@
 | **N1** | **SYS_RESET** | Global Reset | Active Low | Pulled high (10k) on Backplane. |
 | **N2** | **SYS_WAKE** | Power Management | Active Low | Open-drain capable. |
 | **P1 - P10** | **GND_PWR** | Power Return | Ground | High-current return path. |
-| **R1 - R20** | **RESV** | Reserved | N/A | Do not connect. |
-| **T1 - T10** | **CHASSIS_GND** | Shielding | Ground | Tie to L-Frame mounting holes. |
 
 ---
 
