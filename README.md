@@ -1,9 +1,10 @@
 # Meridian-0.5U Reference Module (RM-1)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Standard: Meridian--4U](https://img.shields.io/badge/Standard-Meridian--4U-blue)
+![Standard: Meridian](https://img.shields.io/badge/Standard-Meridian-blue)
 ![Hardware: KiCad](https://img.shields.io/badge/Hardware-KiCad-green)
 ![Status: Alpha](https://img.shields.io/badge/Status-Alpha-orange)
+![Partner: JLCPCB](https://img.shields.io/badge/Partner-JLCPCB-blue)
 
 The **Meridian-0.5U Reference Module (RM-1)** is the standardized "blank" blade for the Meridian-4U ecosystem. It provides a structural and electrical bridge between custom hardware experiments and the **Voyager** compute node
 
