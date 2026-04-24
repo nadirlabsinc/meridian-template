@@ -13,9 +13,11 @@
 |:---|:---|:---|:---|:---|
 | **A1 - A10** | **VCC_5V** | Main System Power | Power (IN) | Max 2A per pin. Tie all pins to a 2oz copper pour. |
 | **B1 - B10** | **VCC_3V3** | Logic Power | Power (IN) | Max 1.5A per pin. Local decoupling required. |
-| **C1 - C20** | **GND_SIG** | Signal Ground | Ground | Primary reference for high-speed signals. |
-| **D1 - D2** | **UART_TX/RX** | Primary Console | 3.3V CMOS | Routed to Meridian Wildcard Mux. |
-| **D3 - D4** | **I2C1_SDA/SCL** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
+| **C1 - C20** | **GND** | Signal Ground | Ground | Primary reference for high-speed signals. |
+| **D1** | **UART_TX** | Primary Console TX | 3.3V CMOS | Routed to Wildcard Mux. |
+| **D2** | **UART_RX** | Primary Console RX | 3.3V CMOS | Routed to Wildcard Mux. |
+| **D3** | **I2C1_SDA/SCL** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
+| **D4** | **I2C1_SDA/SCL** | Management Bus | Open-Drain | 3.3V Logic. Pull-ups located on Backplane. |
 | **D5 - D6** | **I2C1_INT/RST** | Bus Control | 3.3V CMOS | Active Low. |
 | **E1 - E4** | **SPI1_MOSI/MISO** | Data Bus | 3.3V CMOS | 50MHz Max Clock. |
 | **E5 - E8** | **SPI1_SCK/CS** | Bus Control | 3.3V CMOS | Dedicated CS per slot. |
